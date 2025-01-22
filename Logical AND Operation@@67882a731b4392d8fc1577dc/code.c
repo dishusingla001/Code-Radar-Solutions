@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float a,b;
+    int a,b;
     if(a>0 && b>0){
         printf("True");
     }
