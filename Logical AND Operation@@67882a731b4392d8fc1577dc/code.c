@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    if(b>0 && a>0){
+    if(a>0 and b>0){
         printf("True");
     }
     else{
