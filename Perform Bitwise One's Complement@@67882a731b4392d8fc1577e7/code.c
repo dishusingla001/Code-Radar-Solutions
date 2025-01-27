@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    unsigned int a;
+    int a;
     scanf("%d",&a);
-    printf("%u",~a);
+    printf("%d",~a);
     return 0;
 }
