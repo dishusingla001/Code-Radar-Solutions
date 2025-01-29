@@ -9,7 +9,7 @@ int main() {
         printf("Digit");
     }
     else if(islower(ch) || isupper(ch)){
-        if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
+        if(ch=='a' || ch=='e' || ch=='i' || ch='o' || ch=='u'){
             printf("Vowel");
         }
         else{
