@@ -8,7 +8,7 @@ int main() {
     {
         printf("Digit");
     }
-    else if(islower(ch)){
+    else if(islower(ch) || isupper(ch)){
         if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
             printf("Vowel");
         }
