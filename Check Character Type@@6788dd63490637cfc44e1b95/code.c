@@ -4,20 +4,20 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    if(isdigit(ch))
-    {
-        printf("Digit");
-    }
-    else if(isalpha(ch)){
-        if(ch=='a' || ch=='e' || ch=='i' || ch='o' || ch=='u'){
+    if(isalpha(ch)){
+        if(ch=='a' || ch=='e' ||  ch=='i' || ch=='o' || ch=='u')
+        {
             printf("Vowel");
         }
         else{
             printf("Consonant");
         }
     }
+    else if(isdigit(ch)){
+        printf("Digit");
+    }
     else{
-        printf("Special Character");
+        printf("Specail Character");
     }
     return 0;
 }
