@@ -2,13 +2,13 @@
 #include<string.h>
 
 int main() {
-    char a;
-    scanf("%d",&a);
-    if(isdigit(a))
+    char ch;
+    scanf("%d",&ch);
+    if(isdigit(ch))
     {
         printf("Digit");
     }
-    else if(islower(a)){
+    else if(islower(ch)){
         if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
             printf("Vowel");
         }
