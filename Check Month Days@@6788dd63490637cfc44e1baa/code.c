@@ -12,7 +12,7 @@ int main() {
         days = 28;
     }
     else {
-        printf("Invalid");
+        days = 0;
     }
 
     printf("%d",days);
