@@ -12,7 +12,7 @@ int main() {
         days = 28;
     }
     else {
-        printf("Invalid Month");
+        printf("Invalid month");
     }
 
     printf("%d",days);
