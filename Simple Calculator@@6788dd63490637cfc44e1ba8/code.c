@@ -26,8 +26,8 @@ int main() {
             else{
                 printf("Error");
             }
+            break;
         }
-        break;
         case '/':
         {
             if(b!=0){
@@ -37,8 +37,10 @@ int main() {
             else{
                 printf("Error");
             }
+            break;
         }
-        break;
+        default:
+            printf("Error");
     }
     return 0;
 }
