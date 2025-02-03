@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d",&a,&b);
     scanf("%c",&o);
     switch(o){
-        case +:
+        case '+':
         {
             result=a+b;
             printf(result);
@@ -19,7 +19,7 @@ int main() {
         }
         case '*':
         {
-            if(a!=0 && b!=0){
+            if(a!=0 || b!=0){
                 result=a*b;
                 printf(result);
             }
