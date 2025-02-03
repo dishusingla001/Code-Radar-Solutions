@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    string day;
-    scanf("%s",&day);
+    int day;
+    scanf("%d",&day);
     switch(day)
     {
-        case '1':
+        case 1:
             printf("Monday");
             break;
-        case '2':
+        case 2:
             printf("Tuesday");
             break;
         case '3':
