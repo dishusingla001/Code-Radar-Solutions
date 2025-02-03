@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     string day;
-    scanf("%d",&day);
+    scanf("%s",&day);
     switch(day)
     {
         case '1':
