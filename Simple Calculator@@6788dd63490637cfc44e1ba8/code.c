@@ -19,7 +19,7 @@ int main() {
         }
         case '*':
         {
-            if(a!=0 || b!=0){
+            if(a!=0 && b!=0){
                 result=a*b;
                 printf(result);
             }
