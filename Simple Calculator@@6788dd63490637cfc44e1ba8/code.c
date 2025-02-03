@@ -17,7 +17,7 @@ int main() {
                 result=a*b;
             }
             else{
-                printf(strerror(errno));
+                printf("Error");
             }
         }
         break;
@@ -27,7 +27,7 @@ int main() {
                 result=a/b;
             }
             else{
-                printf(strerror(errno));
+                printf("Error");
             }
         }
         break;
