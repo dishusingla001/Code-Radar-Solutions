@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     float a,b;
-    int result;
+    float result;
     char o;
     scanf("%d %d",&a,&b);
     scanf("%c",&o);
@@ -25,7 +25,7 @@ int main() {
                 printf(result);
             }
             else{
-                printf("Error");
+                printf("error");
             }
             break;
         }
@@ -36,12 +36,12 @@ int main() {
                 printf(result);
             }
             else{
-                printf("Error");
+                printf("error");
             }
             break;
         }
         default:
-            printf("Error");
+            printf("error");
     }
     return 0;
 }
