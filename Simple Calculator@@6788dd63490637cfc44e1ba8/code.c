@@ -6,15 +6,22 @@ int main() {
     scanf("%c",&o);
     switch(o){
         case '+':
+        {
             result=a+b;
+            printf(result);
             break;
+        }
         case '-':
+        {
             result=a-b;
+            printf(result);
             break;
+        }
         case '*':
         {
             if(a!=0 && b!=0){
                 result=a*b;
+                printf(result);
             }
             else{
                 printf("Error");
@@ -25,6 +32,7 @@ int main() {
         {
             if(b!=0){
                 result=a/b;
+                printf(result);
             }
             else{
                 printf("Error");
@@ -32,6 +40,5 @@ int main() {
         }
         break;
     }
-    printf(result);
     return 0;
 }
