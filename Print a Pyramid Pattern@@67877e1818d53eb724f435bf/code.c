@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&n);
     
     for(i=1;i<=n;i++){
-        int formula = n*i-(1+i)
+        int formula = n*i-(1+i);
         for(j=1;j<=formula;j++){
             printf("*");
         }
