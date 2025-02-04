@@ -1,15 +1,11 @@
 #include <stdio.h>
 int main() {
-    int n,i=1;
+    int n,i,j;
     scanf("%d",&n);
-    int formula;
-
-    while(i<=n)
-    {
-        int j=1;
-        formula=n-i+1;
-        while(j<=formula){
-            printf("* ");
+    for(i=1;i<=n;i++){
+        int formula = n-i+1;
+        for(j=1;j<=formula;j++){
+            printf("*");
         }
         printf("\n");
     }
