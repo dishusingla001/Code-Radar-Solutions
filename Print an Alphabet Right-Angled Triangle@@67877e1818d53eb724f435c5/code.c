@@ -2,7 +2,7 @@
 int main() {
     int n,i,j;
     scanf("%d",&n);
-    
+
     for(i=1;i<=n;i++){
         int formula = i;
         char ch ='A';
@@ -12,6 +12,5 @@ int main() {
         }
         printf("\n");
     }
-    printf("%s", welcome());
     return 0;
 }
