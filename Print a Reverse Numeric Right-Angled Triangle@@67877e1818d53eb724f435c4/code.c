@@ -12,6 +12,5 @@ int main() {
             z+=1;
         }
     }
-    printf("%s", welcome());
     return 0;
 }
