@@ -2,10 +2,10 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int i,j,k;
+    int i,j,k,s;
     for(i=1;i<=n;i++){
         int space = n-i;
-        for(i=1;i<=space;i++){
+        for(s=1;s<=space;s++){
             printf(" ");
         }
 
