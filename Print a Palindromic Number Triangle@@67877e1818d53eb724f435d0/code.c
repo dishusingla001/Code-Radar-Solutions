@@ -14,8 +14,8 @@ int main() {
             printf("%d",j);
         }
 
-        int formula2=j-1;
-        int extra = i;
+        int formula2=i-1;
+        int extra = i-1;
         for(k=1;k<=formula2;k++){
             printf("%d",extra);
             extra-=1;
