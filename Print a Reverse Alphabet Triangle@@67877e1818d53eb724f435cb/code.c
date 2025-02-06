@@ -7,8 +7,8 @@ int main() {
         char ch='A';
         for(j=1;j<=formula;j++){
             printf("%c ",ch);
+            ch+=1;
         }
-        ch+=1;
         printf("\n");
     }
     return 0;
