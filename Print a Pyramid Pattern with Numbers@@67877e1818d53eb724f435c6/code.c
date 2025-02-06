@@ -13,7 +13,7 @@ int main() {
 
         int formula=i;
         for(j=1;j<=formula;j++){
-            printf("%d",formula);
+            printf("%d ",j);
         }
         printf("\n");
     }
