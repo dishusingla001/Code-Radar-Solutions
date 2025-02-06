@@ -6,10 +6,10 @@ int main() {
         int formula=n-i+1;
         char ch='A';
         for(j=1;j<=formula;j++){
-            printf("%c",ch);
+            printf("%c ",ch);
         }
-        printf("\n");
         ch+=1;
+        printf("\n");
     }
     return 0;
 }
