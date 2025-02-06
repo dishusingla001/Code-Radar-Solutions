@@ -5,7 +5,7 @@ int main() {
     for(int i=1;i<=n;i++){
         int formula=i;
         for(j=1;j<=formula;j++){
-            if(i%2==0 && j%2==0){
+            if(i%2==0 && j%2==0 || i%2!=0 && j%2!=0){
                 printf("1 ");
             }
             else{
