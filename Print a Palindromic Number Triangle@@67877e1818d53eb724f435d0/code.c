@@ -11,7 +11,7 @@ int main() {
 
         int formula1=i;
         for(j=1;j<=formula1;j++){
-            printf("%d",formula1);
+            printf("%d",j);
         }
 
         int formula2=i-1;
