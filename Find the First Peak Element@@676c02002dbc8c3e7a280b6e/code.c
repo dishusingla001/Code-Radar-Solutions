@@ -15,8 +15,8 @@ int main(){
             max=arr[j];
             break;
         }
-        next++;
-        previous++;
+        next+=1;
+        previous+=1;
     }
     printf("%d",max);
 
