@@ -13,10 +13,10 @@ int main(){
     for(int j=0;j<size;j++){
         if(arr[j]>next && arr[j]>previous){
             max=arr[j];
-            next++;
-            previous++;
             break;
         }
+        next++;
+        previous++;
     }
     printf("%d",max);
 
