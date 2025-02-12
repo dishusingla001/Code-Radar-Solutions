@@ -11,7 +11,7 @@ int main(){
     int previous=0;
     int max=0;
     for(int j=0;j<size;j++){
-        if(arr[j]>next && arr[j]>previous){
+        if(arr[j]>arr[next] && arr[j]>arr[previous]){
             max=arr[j];
             break;
         }
