@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    float a,b;
+    int a,b;
     float result;
     char o;
-    scanf("%f %f",&a,&b);
+    scanf("%d %d",&a,&b);
     scanf("%c",&o);
     switch(o){
         case '+':
@@ -11,13 +11,13 @@ int main() {
             result=a+b;
             printf(result);
         }
-            break;
+        break;
         case '-':
         {
             result=a-b;
             printf(result);
         }
-            break;
+        break;
         case '*':
         {
             if(a!=0 && b!=0){
@@ -28,7 +28,7 @@ int main() {
                 printf("error");
             }
         }
-            break;
+        break;
         case '/':
         {
             if(b!=0){
@@ -39,7 +39,7 @@ int main() {
                 printf("error");
             }
         }
-            break;
+        break;
         default:
             printf("error");
     }
