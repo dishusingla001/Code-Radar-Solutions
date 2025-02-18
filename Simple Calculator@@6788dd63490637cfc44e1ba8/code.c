@@ -1,25 +1,26 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    float result;
+    int result;
     char o;
-    scanf("%d %d",&a,&b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     scanf("%c",&o);
     switch(o){
         case '+':
-            printf("%f",a+b);
+            printf("%d",a+b);
         break;
         case '-':
         {
             result=a-b;
-            printf("%f",result);
+            printf("%d",result);
         }
         break;
         case '*':
         {
             if(a!=0 && b!=0){
                 result=a*b;
-                printf("%f",result);
+                printf("%d",result);
             }
             else{
                 printf("error");
@@ -30,7 +31,7 @@ int main() {
         {
             if(b!=0){
                 result=a/b;
-                printf("%f",result);
+                printf("%d",result);
             }
             else{
                 printf("error");
