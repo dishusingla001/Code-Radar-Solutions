@@ -7,14 +7,19 @@ int main() {
     scanf("%c",&o);
     switch(o){
         case '+':
+        {
             result=a+b;
             printf(result);
+        }
             break;
         case '-':
+        {
             result=a-b;
             printf(result);
+        }
             break;
         case '*':
+        {
             if(a!=0 && b!=0){
                 result=a*b;
                 printf(result);
@@ -22,8 +27,10 @@ int main() {
             else{
                 printf("error");
             }
+        }
             break;
         case '/':
+        {
             if(b!=0){
                 result=a/b;
                 printf(result);
@@ -31,6 +38,7 @@ int main() {
             else{
                 printf("error");
             }
+        }
             break;
         default:
             printf("error");
