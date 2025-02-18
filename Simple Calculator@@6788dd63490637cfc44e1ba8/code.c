@@ -9,20 +9,20 @@ int main() {
         case '+':
         {
             result=a+b;
-            printf(result);
+            printf("%f",result);
         }
         break;
         case '-':
         {
             result=a-b;
-            printf(result);
+            printf("%f",result);
         }
         break;
         case '*':
         {
             if(a!=0 && b!=0){
                 result=a*b;
-                printf(result);
+                printf("%f",result);
             }
             else{
                 printf("error");
@@ -33,7 +33,7 @@ int main() {
         {
             if(b!=0){
                 result=a/b;
-                printf(result);
+                printf("%f",result);
             }
             else{
                 printf("error");
